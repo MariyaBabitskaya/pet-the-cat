@@ -1,0 +1,41 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.image-cat {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 1000px;
+    height: 700px;
+    padding: 20px 20px;
+    border: blue solid 2px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background: aliceblue;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: cadetblue;
+    color: white;
+}
+
+.pet-cat {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
